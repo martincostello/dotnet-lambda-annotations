@@ -1,6 +1,5 @@
 ﻿using Amazon.Lambda.Annotations;
 using Amazon.Lambda.Core;
-using HttpMethod = Amazon.Lambda.Annotations.HttpMethod;
 
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
 
