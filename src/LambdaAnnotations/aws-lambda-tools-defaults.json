@@ -6,5 +6,5 @@
   "function-runtime": "dotnetcore3.1",
   "function-memory-size": 256,
   "function-timeout": 30,
-  "function-handler": "LambdaAnnotations::LambdaAnnotations.MyFunction::ToUpper"
+  "function-handler": "LambdaAnnotations::LambdaAnnotations.MathsFunctions::Add"
 }
