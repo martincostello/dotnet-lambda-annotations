@@ -2,6 +2,7 @@
   <PropertyGroup>
     <AWSProjectType>Lambda</AWSProjectType>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
