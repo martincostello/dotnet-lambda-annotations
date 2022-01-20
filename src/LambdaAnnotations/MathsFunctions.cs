@@ -20,4 +20,10 @@ public class MathsFunctions
     {
         return x - y;
     }
+
+    [LambdaFunction]
+    public async Task<int> AddAsync(int x, int y)
+    {
+        return await Task.FromResult(x + y);
+    }
 }
