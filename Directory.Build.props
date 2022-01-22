@@ -20,7 +20,4 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <VersionPrefix>1.0.0</VersionPrefix>
   </PropertyGroup>
-  <ItemGroup>
-    <Using Include="Amazon.Lambda.Annotations.HttpMethod" Alias="HttpMethod" />
-  </ItemGroup>
 </Project>
